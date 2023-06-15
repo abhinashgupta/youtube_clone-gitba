@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yutube Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+  
+  <nav class="flex-div">
+    <div class="nav-left flex-div">
+      <img src="../images/menu.png" class="menu-icon">
+      <img src="../images/logy1.png" height="50px" width="150px" class="logo">
+    </div>
+    <div class="nav-middle flex-div">
+      <div class="search-box flex-div">
+        <input type="text" class="search-bar" placeholder="search">
+        <button class="search-btn"><img src="../images/search.png" alt=""></button>
+      </div>
+      <img src="../images/voice-search.png" class="mic-icon">
+    </div>
+    <div class="nav-right flex-div">
+      <img src="../images/upload.png" >
+      <img src="../images/more.png" >
+      <img src="../images/notification.png" >
+      <img src="../images/Jack.png" class="user-icon" >
+    </div>
+    <div class="pclick">
+      <div class="uper">
+        <div class="luper">
+          <img src="../images/Jack.png" alt="">
+        </div>
+        <div class="ruper">
+          <h3>Anonymous Devloper...</h3>
+          <h4>@anonymousdeveloperabhi...</h4><br>
+          <a href="">Manage your Google Account</a>
+        </div>
+      </div><hr>
+      <div class="usecond">
+        <div class="usf">
+          <i class="ri-account-box-line"></i>
+          <h5>Your channel</h5>
+        </div>
+        <div class="uss">
+         <img src="https://cdn.iconscout.com/icon/free/png-256/free-youtube-studio-4627162-3853353.png?f=webp&w=18" width="23px" height="23px" alt="">
+         <h5>Youtube Studio</h5>
+        </div>
+        <div class="ust">
+         <img src="https://static.thenounproject.com/png/1664846-200.png" width="23px" height="23px" alt="">
+         <h5>Switch Account</h5>
+        </div>
+        <div class="usfo">
+          <i class="ri-logout-box-r-line"></i>
+          <h5>Sign Out</h5>
+        </div>
+      </div><hr>
+      <div class="usecond">
+        <div class="usf">
+          <i class="ri-money-dollar-circle-line"></i>
+          <h5>Purchases and memberships</h5>
+        </div>
+        <div class="usfo">
+          <i class="ri-donut-chart-fill"></i>
+          <h5>Your data In youtube</h5>
+        </div>
+      </div><hr>
+      <div class="usecond">
+        <div class="usf">
+          <i class="ri-moon-line"></i>
+          <h5>Appearance: Device theme</h5>
+        </div>
+        <div class="usfo">
+          <i class="ri-shield-keyhole-line"></i>
+          <h5>Restricted mode: off</h5>
+        </div>
+         <div class="usfo">
+          <i class="ri-global-line"></i>
+          <h5>Location: India</h5>
+        </div> 
+        <div class="usfo">
+          <i class="ri-keyboard-line"></i>
+          <h5>Keyboard shortcuts</h5>
+        </div>
+      </div><hr>
+       <div class="usecond">
+        <div class="usf">
+          <i class="ri-settings-5-line"></i>
+          <h5>Settings</h5>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="filters">
+    <button class="filter-options active">all</button>
+    <button class="filter-options">CSS</button>
+    <button class="filter-options">web development</button>
+    <button class="filter-options">python</button>
+    <button class="filter-options">entertainment</button>
+    <button class="filter-options">javascript</button>
+    <button class="filter-options">artificial inteliigence</button>
+    <button class="filter-options">machine learning</button>
+    <button class="filter-options">trending</button>
+  </div>
+
+  <!-- -----------------slide bar--------------------------- -->
+
+  <div class="slidebar">
+    <div class="shortcut-links">
+      <a href=""><img src="../images/home.png"><p>Home</p></a>
+      <a href=""><img src="../images/explore.png"><p>Expore</p></a>
+      <a href=""><img src="../images/subscriprion.png"><p>Subscription</p></a>
+      <a href=""><img src="../images/library.png"><p>Library</p></a>
+      <a href=""><img src="../images/history.png"><p>History</p></a>
+      <a href=""><img src="../images/playlist.png"><p>Playlist</p></a>
+      <a href=""><img src="../images/messages.png"><p>Messages</p></a>
+      <a href=""><img src="../images/show-more.png"><p>Show More</p></a>
+      <hr>
+    </div>
+    <div class="subscribe-list">
+      <h3>SUBSCRIBED</h3>
+      <a href=""><img src="../images/Jack.png"><p>Jack Nicholson</p></a>
+      <a href=""><img src="../images/simon.png"><p>Simon Baker</p></a>
+      <a href=""><img src="../images/tom.png"><p>Tom Hardy</p></a>
+      <a href=""><img src="../images/megan.png"><p>Megan Ryan</p></a>
+      <a href=""><img src="../images/cameron.png"><p>Cameron Diaz</p></a>
+
+
+    </div>
+  </div>
+
+  <!-- -----------------main------------------------- -->
+  <div class="container">
+    <div class="banner">
+      <img src="../images/banner.png">
+    </div>
+    <div class="list-container">
+      <!-- <div class="vid-list">
+        <a href="/vid"><img src="../images/thumbnail1.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="/vid">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="vid-list"> -->
+        <!-- <a href=""><img src="../images/thumbnail2.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div> -->
+      <!-- </div> -->
+      <!-- <div class="vid-list">
+        <a href=""><img src="../images/thumbnail3.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a href=""><img src="../images/thumbnail4.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a href=""><img src="../images/thumbnail5.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a href=""><img src="../images/thumbnail6.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a href=""><img src="../images/thumbnail7.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a href=""><img src="../images/thumbnail8.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="../images/Jack.png">
+          <div class="vid-info">
+            <a href="">Best channel to learn codeing theat helps you to be a web developer</a>
+            <p>Easy Tutorials</p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div> -->
+      <!-- </div>  -->
+    </div>
+  </div>
+  
+ 
+  <script src="../javascripts/script.js"></script>
+  <script src="../javascripts/hello.js"></script> 
+</body>
+</html>
